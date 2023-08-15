@@ -352,5 +352,5 @@ section#trusted-clients .clients {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
