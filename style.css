@@ -328,5 +328,29 @@ section#why-choose-us .container article p {
 
 section#why-choose-us .container article a {
     display: inline-block;
-    margin: ;
+    margin-top: 1rem;
+}
+
+section#why-choose-us .container article a img {
+    width: 8rem;
+    transition: all 300 ms ease;
+}
+
+section#why-choose-us .container article a:hover img {
+    filter: saturate(0);
+}
+
+/* =============== TRUSTED CLIENTS ================ */
+section#trusted-clients h4 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section#trusted-clients .clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
